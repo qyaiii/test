@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
+        Scanner user = new Scanner(System.in);
 
-        System.out.print("Hello world!");
-        
+        System.out.print("Please enter your name");
+        String name = user.nextLine;
+    
     }
 }
