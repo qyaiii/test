@@ -4,8 +4,20 @@ public class Test {
     public static void main(String[] args){
         Scanner user = new Scanner(System.in);
 
-        System.out.print("Please enter your name");
+        System.out.println("Please enter your name");
         String name = user.nextLine;
-    
+
+        System.out.println("Please enter your age");
+        Int age = user.nextInt;
+
+        System.out.println("Please enter your birthday month in numbers");
+        Int age = user.nextInt;
+
+        If (age =>18){
+            System.out.println("adult");
+        } else {
+            System.out.println("minor");
+        }
+        
     }
 }
